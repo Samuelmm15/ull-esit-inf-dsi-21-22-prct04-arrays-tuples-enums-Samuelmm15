@@ -1,5 +1,3 @@
-// Hay que tener en cuenta que se deben de tratar de números
-// consecutivos para poder formar un rango
 
 function fromArrayToRanges(arrayToConvert: number[]): string {
   let result: string = ``;
@@ -43,24 +41,58 @@ function fromArrayToRanges(arrayToConvert: number[]): string {
   return result;
 }
 
-// COMPROBAR COMO COGER LOS NÚMEROS MAYORES DE UN CARACTER EN EL STRING
 function fromRangesToArray(stringToConvert: string): number[] {
   const resultArray: number[] = [];
   let i: number = 0;
   let firstNumber: number = +stringToConvert[0];
   let lastNumber: number = 0;
   while (i != stringToConvert.length) {
+    if (stringToConvert[i] === `_`) {
+      let aux: number = i + 1;
+      aux++;
+      if ((stringToConvert[aux] !== `,`) && (stringToConvert[aux] !== `_`)) {
+        let auxiliaryConvert: string = ``;
+        aux--;
+        auxiliaryConvert = auxiliaryConvert + stringToConvert[aux];
+        aux++;
+        auxiliaryConvert = auxiliaryConvert + stringToConvert[aux];
+        lastNumber = +auxiliaryConvert;
+      } else {
+        aux--;
+        lastNumber = +stringToConvert[aux];
+      }
+    } else if (stringToConvert[i] === `,`) {
+      let aux: number = i + 1;
+      aux++;
+      if ((stringToConvert[aux] !== `,`) && (stringToConvert[aux] !== `_`)) {
+        let auxiliaryConvert: string = ``;
+        aux--;
+        auxiliaryConvert = auxiliaryConvert + stringToConvert[aux];
+        aux++;
+        auxiliaryConvert = auxiliaryConvert + stringToConvert[aux];
+        firstNumber = +auxiliaryConvert;
+        lastNumber = +auxiliaryConvert;
+      } else {
+        aux--;
+        firstNumber = +stringToConvert[aux];
+        lastNumber = +stringToConvert[aux];
+      }
+    } else if (stringToConvert[i] === `-`) {
+      let aux: number = i + 1;
+      let auxiliaryConvert: string = ``;
+      auxiliaryConvert = auxiliaryConvert + stringToConvert[i];
+      auxiliaryConvert = auxiliaryConvert + stringToConvert[aux];
+      aux++;
+      if (stringToConvert[aux] === `,`) {
+        firstNumber = +auxiliaryConvert;
+        lastNumber = +auxiliaryConvert;
+      } else if (stringToConvert[aux] === `_`) {
+        firstNumber = +auxiliaryConvert;
+      }
+    }
     while (firstNumber <= lastNumber) {
       resultArray.push(firstNumber);
       firstNumber++;
-    }
-    if (stringToConvert[i] === `_`) {
-      const aux: number = i + 1;
-      lastNumber = +stringToConvert[aux];
-    } else if (stringToConvert[i] === `,`) {
-      const aux: number = i + 1;
-      firstNumber = +stringToConvert[aux];
-      lastNumber = +stringToConvert[aux];
     }
     i++;
   }
