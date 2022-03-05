@@ -26,7 +26,7 @@ const numberNToComprobe = 4;
 if (numberNToComprobe < 1) {
   console.log(`El número que ha sido introducido no está permitido.`);
 } else { // When the number is correct
-  const productTableResult = productTable(numberNToComprobe);
+  const productTableResult: number[][] = productTable(numberNToComprobe);
   console.log();
   console.log(`El resultado es ${productTableResult}`);
 }
