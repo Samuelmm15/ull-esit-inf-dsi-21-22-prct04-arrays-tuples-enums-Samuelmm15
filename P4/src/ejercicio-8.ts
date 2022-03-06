@@ -9,7 +9,7 @@ function pointsAdd(firstpoint: point, secondPoint: point): point {
     y: 0,
   };
   resultPoint.x = firstpoint.x + secondPoint.x;
-  resultPoint.y = firstpoint.x + secondPoint.y;
+  resultPoint.y = firstpoint.y + secondPoint.y;
   return resultPoint;
 }
 
@@ -19,7 +19,7 @@ function pointsSubtract(firstpoint: point, secondPoint: point): point {
     y: 0,
   };
   resultPoint.x = firstpoint.x - secondPoint.x;
-  resultPoint.y = firstpoint.x - secondPoint.y;
+  resultPoint.y = firstpoint.y - secondPoint.y;
   return resultPoint;
 }
 
