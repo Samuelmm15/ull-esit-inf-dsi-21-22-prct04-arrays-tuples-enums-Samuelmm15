@@ -69,3 +69,4 @@ const resultEuclideanDistance = euclideanDistance(firstPointToIntroduce, secondP
 // eslint-disable-next-line max-len
 console.log(`La distancia euclídea para los puntos introducidos es: ${resultEuclideanDistance}`);
 
+// https://www.digitalocean.com/community/tutorials/how-to-create-custom-types-in-typescript
