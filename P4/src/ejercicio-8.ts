@@ -30,7 +30,7 @@ function productOperation(pointToComprobe: point, numberToOperate: number): poin
     y: 0,
   };
   resultPoint.x = pointToComprobe.x * numberToOperate;
-  resultPoint.y = pointToComprobe.x * numberToOperate;
+  resultPoint.y = pointToComprobe.y * numberToOperate;
   return resultPoint;
 }
 
@@ -63,7 +63,7 @@ console.log(`EL resultado de la resta con puntos los puntos introducidos es (${r
 // eslint-disable-next-line max-len
 resultPointsOperations = productOperation(secondPointToIntroduce, 3);
 // eslint-disable-next-line max-len
-console.log(`EL resultado de la resta con puntos los puntos introducidos es (${resultPointsOperations.x}, ${resultPointsOperations.y})`);
+console.log(`EL resultado del producto con el punto introducido es (${resultPointsOperations.x}, ${resultPointsOperations.y})`);
 // eslint-disable-next-line max-len
 const resultEuclideanDistance = euclideanDistance(firstPointToIntroduce, secondPointToIntroduce);
 // eslint-disable-next-line max-len

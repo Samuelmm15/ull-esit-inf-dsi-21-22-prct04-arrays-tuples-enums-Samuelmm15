@@ -4,7 +4,7 @@ function multiplyAll(arrayToMultiply: number[]): (a: number) => number[] {
     const resultArray: number[] = [];
     let result: number = 0;
     let i: number = 0;
-    while (i != length) {
+    while (i !== length) {
       result = arrayToMultiply[i] * num;
       resultArray.push(result);
       i++;
