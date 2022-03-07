@@ -1,5 +1,17 @@
-
-function fromArrayToRanges(arrayToConvert: number[]): string {
+/**
+ * This function converts an array of number into a string of ranges.
+ * @param arrayToConvert Consists in the array of numbers to convert.
+ * @returns The array of number converted into a string of ranges.
+ * To execute the whole program, the command to use is:
+ * ```
+ * []$ npm start
+ * ```
+ * To test the function, the command to use is:
+ * ```
+ * []$ npm test
+ * ```
+ */
+export function fromArrayToRanges(arrayToConvert: number[]): string {
   let result: string = ``;
   let i: number = 0;
   let firstNumber: number = arrayToConvert[0];
@@ -41,7 +53,20 @@ function fromArrayToRanges(arrayToConvert: number[]): string {
   return result;
 }
 
-function fromRangesToArray(stringToConvert: string): number[] {
+/**
+ * This function converts a string of ranges into an array of numbers.
+ * @param stringToConvert Consists in the string of ranges to convert.
+ * @returns The array of numbers that representes the ranges.
+ * To execute the whole program, the command to use is:
+ * ```
+ * []$ npm start
+ * ```
+ * To test the function, the command to use is:
+ * ```
+ * []$ npm test
+ * ```
+ */
+export function fromRangesToArray(stringToConvert: string): number[] {
   const resultArray: number[] = [];
   let i: number = 0;
   let firstNumber: number = +stringToConvert[0];
@@ -99,7 +124,7 @@ function fromRangesToArray(stringToConvert: string): number[] {
   return resultArray;
 }
 
-const arrayToComprobe: number[] = [3, 5, 6, 7, 9, 10];
+const arrayToComprobe: number[] = [-3, -2, -1, 3, 5, 6, 7];
 const resultFromArrayToRanges: string = fromArrayToRanges(arrayToComprobe);
 // eslint-disable-next-line max-len
 console.log(`La conversión del array ${arrayToComprobe} al rango ${resultFromArrayToRanges}`);
