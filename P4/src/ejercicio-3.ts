@@ -1,6 +1,18 @@
 /* eslint-disable no-unused-vars */
-
-function decodeResistor(firstColour: string,
+/**
+ * This function calculates the resistence value from color bands.
+ * @param firstColour Consists in the first colour to comprobe.
+ * @param secondColour Consists in the second colour to comprobe
+ * @param restColours Constis in the rest of the colours to comprobe.
+ * @returns The resistence value
+ * To test the program, use the comand:
+ * ```
+ * []$ npm test
+ * ```
+ * To execute the whole program, use the comand:
+ * []$ npm start
+ */
+export function decodeResistor(firstColour: string,
     secondColour: string, ...restColours: string[]): number {
   enum resistorColours {
     Negro = `Negro`,
@@ -72,6 +84,6 @@ enum resistorColours { // It is declared here to make a easy introducing to the 
     Blanco = `Blanco`
   }
 // eslint-disable-next-line max-len
-const resultResistor: number = decodeResistor(resistorColours.Marrón, resistorColours.Verde, resistorColours.Violeta);
+const resultResistor: number = decodeResistor(resistorColours.Negro, resistorColours.Azul, resistorColours.Violeta);
 // eslint-disable-next-line max-len
 console.log(`El valor de la resistencia que ha sido introducida es ${resultResistor} Ohmios.`);
