@@ -1,4 +1,18 @@
-function theCartesianWalk(walkToComprobe: string[]): boolean {
+/**
+ * This function calculates if a Cartesian habitant can
+ * take a walk under 10 minutes.
+ * @param walkToComprobe Consists in the array produced by the Cartesian app.
+ * @returns True if the walk is possible or false if not.
+ * To execute the program, use the command:
+ * ```
+ * []$ npm start
+ * ```
+ * To test the program, use the command:
+ * ```
+ * []$ npm test
+ * ```
+ */
+export function theCartesianWalk(walkToComprobe: string[]): boolean {
   let counter: number = 0; // to comprobe if the walk is up to 10 minutes
   let xCoordinate: number = 0;
   let yCoordinate: number = 0;

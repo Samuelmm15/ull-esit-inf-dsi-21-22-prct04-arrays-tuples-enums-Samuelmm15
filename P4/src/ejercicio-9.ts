@@ -3,11 +3,24 @@ type npoint = {
     x: number;
     y: number;
     z: number;
-    oderCoodinates?: number[]; // Con la interrograación se establece que
-    // es opcional
+    oderCoodinates?: number[]; // This is an optional paramether
   }
 
-function nPointsAdd(firstpoint: npoint, secondPoint: npoint): npoint {
+/**
+ * This function adds the coordinates of two points.
+ * @param firstpoint Consists in the first point.
+ * @param secondPoint Consists in the second point.
+ * @returns A result point with the added coordinates.
+ * To execute the whole program, use the command:
+ * ```
+ * []$ npm start
+ * ```
+ * To test the program, use the command:
+ * ```
+ * []$ npm test
+ * ```
+ */
+export function nPointsAdd(firstpoint: npoint, secondPoint: npoint): npoint {
   if (firstpoint.oderCoodinates?.length === secondPoint.oderCoodinates?.length) {
     const resultPoint: npoint = {
       x: 0,
@@ -44,7 +57,13 @@ function nPointsAdd(firstpoint: npoint, secondPoint: npoint): npoint {
   }
 }
 
-function nPointsSubtract(firstpoint: npoint, secondPoint: npoint): npoint {
+/**
+ * This function subtract the coordinates of two points.
+ * @param firstpoint Consists in the first point.
+ * @param secondPoint Consists in the second point.
+ * @returns A result point with the subtracted coordinates.
+ */
+export function nPointsSubtract(firstpoint: npoint, secondPoint: npoint): npoint {
   if (firstpoint.oderCoodinates?.length === secondPoint.oderCoodinates?.length) {
     const resultPoint: npoint = {
       x: 0,
@@ -81,8 +100,14 @@ function nPointsSubtract(firstpoint: npoint, secondPoint: npoint): npoint {
   }
 }
 
+/**
+ * This function multiply the coordinates of a point with a number.
+ * @param pointToComprobe Consists in the point to multiply.
+ * @param numberToOperate Consists in the number to multiply.
+ * @returns An array with the multiply numbers.
+ */
 // eslint-disable-next-line max-len
-function nProductOperation(pointToComprobe: npoint, numberToOperate: number): npoint {
+export function nProductOperation(pointToComprobe: npoint, numberToOperate: number): npoint {
   if (pointToComprobe.oderCoodinates?.length !== 0) {
     const resultPoint: npoint = {
       x: 0,
@@ -118,7 +143,13 @@ function nProductOperation(pointToComprobe: npoint, numberToOperate: number): np
   }
 }
 
-function nEuclideanDistance(firstpoint: npoint, secondPoint: npoint): number {
+/**
+ * This function calculates the Euclidean distance.
+ * @param firstpoint Consists in the first point.
+ * @param secondPoint Consistsin the second point.
+ * @returns The euclidean distance.
+ */
+export function nEuclideanDistance(firstpoint: npoint, secondPoint: npoint): number {
   if (firstpoint.oderCoodinates?.length === secondPoint.oderCoodinates?.length) {
     let i: number = firstpoint.oderCoodinates?.length as number;
     let resultwhile: number = 0;
