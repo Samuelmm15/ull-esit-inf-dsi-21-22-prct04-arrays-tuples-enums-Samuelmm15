@@ -1,4 +1,10 @@
-function meanAndConcatenate(arrayToConvert: (number |
+/**
+ * This function separates an unordered array into an ordered array,
+ * separate into a string part and a number part.
+ * @param arrayToConvert Consists in the unordered array to sort.
+ * @returns A sorted array.
+ */
+export function meanAndConcatenate(arrayToConvert: (number |
     string)[]): (number | string)[] {
   const result: (number | string)[] = [];
   let i: number = 0;

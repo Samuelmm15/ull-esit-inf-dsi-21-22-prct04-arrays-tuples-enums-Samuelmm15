@@ -1,4 +1,15 @@
-function meshArray(meshWords: string[]): string {
+/**
+ * This function comprobes if the words are in chain.
+ * @param meshWords Consists in the array of words to comprobe.
+ * @returns A string with the chain characters.
+ * To test the function, use the command:
+ * ```
+ * []$ npm test
+ * ```
+ * To execute the whole program, use the command:
+ * []$ npm start
+ */
+export function meshArray(meshWords: string[]): string {
   let auxiliary: number = 0;
   let result: string = ``;
   while (auxiliary < 3) {
@@ -34,7 +45,7 @@ function meshArray(meshWords: string[]): string {
 }
 
 // eslint-disable-next-line max-len
-const meshWordsToComprobe: string[] = [`kingdom`, `dominator`, `notorious`, `usual`, `allegory`];
+const meshWordsToComprobe: string[] = [`apply`, `plywood`, `wood`, `day`];
 const meshResult = meshArray(meshWordsToComprobe);
 if (meshResult === `1`) {
   console.log(`Error al encadenar`);
@@ -45,3 +56,5 @@ if (meshResult === `1`) {
 
 // `kingdom`, `dominator`, `notorious`, `usual`, `allegory`
 // `allow`, `lowering`, `ringmaster`, `terror`
+// `apply`, `plywood`, `apple`, `each`
+// `apply`, `plywood`, `wood`, `day`
