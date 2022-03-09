@@ -80,7 +80,9 @@ function productTable(numberN: number): number[][] {
 ```
 
 Tras el desarrollo de la función anterior, se puede ver el testeo de dicha función, en la imagen a continuación:
-[imagen]
+![ejercicio-1-start](https://user-images.githubusercontent.com/72341631/157554793-6a1a3154-132b-4445-a47e-8a38faff5324.png)
+
+![ejercicio-1-test](https://user-images.githubusercontent.com/72341631/157554811-aaa0da6a-3a4d-449e-9472-e04a994d529b.png)
 
 ### /// Ejercicio 2 - Compresión de números en rangos <a name="id4"></a>
 
@@ -207,7 +209,9 @@ function fromRangesToArray(stringToConvert: string): number[] {
 ```
 
 El testeo y ejecución de ambas funciones, se puede observar en la siguiente imagen:
-[imagen]
+![ejercicio-2-start](https://user-images.githubusercontent.com/72341631/157554858-85faef69-db77-4338-90fa-960244a25a2b.png)
+
+![ejercicio-2-test](https://user-images.githubusercontent.com/72341631/157554874-f51bcbfb-abf5-437e-bcf4-841a7d0b20eb.png)
 
 ### /// Ejercicio 3 - Decodificar resistencias <a name="id5"></a>
 
@@ -280,7 +284,9 @@ function decodeResistor(firstColour: string,
 ```
 
 El testeo y ejecución de dicha función se puede observar en la imagen incluida a continuación:
-[imagen]
+![ejercicio-3-start](https://user-images.githubusercontent.com/72341631/157554891-363def94-125b-4d2a-a2d3-8a87ff44e20b.png)
+
+![ejercicio-3-test](https://user-images.githubusercontent.com/72341631/157554902-a7be4579-2c7d-455d-9d93-ccd1b8d59fe2.png)
 
 ### Ejercicio 4 - Palabras encadenadas en un array <a name="id6"></a>
 
@@ -334,7 +340,9 @@ function meshArray(meshWords: string[]): string {
 ```
 
 El testeo de la función y su ejecución, se puede ver en la imagen a continuación:
-[imagen]
+![ejercicio-4-start](https://user-images.githubusercontent.com/72341631/157554924-3f67294e-7596-4f0f-8f8b-3f95122b2da7.png)
+
+![ejercicio-4-test](https://user-images.githubusercontent.com/72341631/157554930-1892fff1-3a95-484f-a8df-626bf8125c53.png)
 
 ### /// Ejercicio 5 - Calcular la media y concatenar cadenas <a name="id7"></a>
 
@@ -377,7 +385,9 @@ function meanAndConcatenate(arrayToConvert: (number |
 ```
 
 La ejecución y el testeo de la función, se puede observar a continuación:
-[imagen]
+![ejercicio-5-start](https://user-images.githubusercontent.com/72341631/157554949-46a8dbf4-38fd-4400-8f95-c8e01898b070.png)
+
+![ejercicio-5-test](https://user-images.githubusercontent.com/72341631/157554953-5983e129-82ab-4ed2-9f44-cc730f65090b.png)
 
 ### Ejercicio 6 - Mover los ceros al final <a name="id8"></a>
 
@@ -413,7 +423,9 @@ function moveZeros(arrayToConvert: number[]): number[] {
 ```
 
 El testeo y la ejecución de esta, se puede ver en la imagen adjuntada a continuación:
-[imagen]
+![ejercicio-6-start](https://user-images.githubusercontent.com/72341631/157554974-3caf41b9-75da-41ba-b2ef-311252e83724.png)
+
+![ejercicio-6-test](https://user-images.githubusercontent.com/72341631/157554981-96ab0ef3-d32d-4ae5-b986-0b5c39453b28.png)
 
 ### Ejercicio 7 - Factoria de multiplicaciones <a name="id9"></a>
 
@@ -442,7 +454,9 @@ function multiplyAll(arrayToMultiply: number[]): (a: number) => number[] {
 ```
 
 La ejecución y el testeo de la función, se puede observar:
-[imagen]
+![ejercicio-7-start](https://user-images.githubusercontent.com/72341631/157554994-e9caa308-1a60-456e-a58b-112cb4c7924d.png)
+
+![ejercicio-7-test](https://user-images.githubusercontent.com/72341631/157555001-6f03441a-c31c-452a-ad4d-7234ce376e8b.png)
 
 ### Ejercicio 8 - Puntos bi-dimensionales <a name="id10"></a>
 
@@ -517,7 +531,8 @@ function euclideanDistance(firstpoint: point, secondPoint: point): number {
 ```
 
 La ejecución y el testeo de todas las funciones anteriores, se pude ver en la siguiente imagen:
-[imagen]
+![ejercicio-8-start](https://user-images.githubusercontent.com/72341631/157555023-0d895914-d55b-4e16-8d78-f2a10e304d56.png)
+
 
 ### /// Ejercicio 9 - Puntos n-dimensionales <a name="id11"></a>
 
@@ -668,7 +683,8 @@ Para finalizar, se desarrolla la función `nEuclideanDistance`. Esta, se encarga
 , a partir, de los dos puntos que han sido introducidos.
 
 La ejecución y el testeo de las funciones especificadas anteriormente, se puede observar:
-[imagen]
+![ejercicio-9-start](https://user-images.githubusercontent.com/72341631/157555045-53ae037f-1db7-47fc-aa15-bfe347c24c42.png)
+
 
 ### /// Ejercicio 10 - El Cartesiano <a name="id12"></a>
 
@@ -724,7 +740,9 @@ function theCartesianWalk(walkToComprobe: string[]): boolean {
 ```
 
 La ejecución y el testeo de esto anterior, queda representado en la siguiente imagen:
-[imagen]
+![ejercicio-10-start](https://user-images.githubusercontent.com/72341631/157555073-136cc2d9-4e35-408a-a2c4-387c7936f0d1.png)
+
+![ejercicio-10-test](https://user-images.githubusercontent.com/72341631/157555091-a8c6894e-0747-4091-a20e-28c9b4eb26e9.png)
 
 En `conclusión`, tras la realización de estos diez ejercicios, he conseguido aprender un poco más sobre el uso de los arrays, de las tuplas, de los enumerados, de los tipos de datos creados por el programador, del retorno de funciones a partir de una función, etc. Todo esto, me ha permitido aprender un poco más sobre todas las funcionalidades que presenta el lenguaje de programación `TypeScript`.
 
