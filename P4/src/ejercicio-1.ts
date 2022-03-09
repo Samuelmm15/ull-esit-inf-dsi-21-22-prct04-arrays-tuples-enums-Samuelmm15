@@ -30,7 +30,6 @@ export function productTable(numberN: number): number[][] {
       j++;
     }
     // console.log(auxiliaryResult); // To comprobe the arrays
-    // eslint-disable-next-line max-len
     result.push(auxiliaryResult);
     auxiliaryResult = [];
     i++;
