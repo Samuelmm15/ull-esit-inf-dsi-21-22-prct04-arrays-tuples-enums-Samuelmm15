@@ -1,6 +1,20 @@
 # Índice
 
-## // Introdución
+1. [Introducción.](#id1)
+2. [Desarrollo de ejercicios solicitados.](#id2) \
+   a. [Ejercicio 1.](#id3) \
+   b. [Ejercicio 2.](#id4) \
+   c. [Ejercicio 3.](#id5) \
+   d. [Ejercicio 4.](#id6) \
+   e. [Ejercicio 5.](#id7) \
+   f. [Ejercicio 6.](#id8) \
+   g. [Ejercicio 7.](#id9) \
+   h. [Ejercicio 8.](#id10) \
+   i. [Ejercicio 9.](#id11) \
+   j. [Ejercicio 10.](#id12)
+
+
+## // Introdución <a name="id1"></a>
 
 Para la realización de la cuarta práctica de la asignatura `Desarrollo de Sistemas Informáticos`, ha sido necesaria la lectura de documentos y la 
 visualización de vídeos, necesarios para el uso de ciertas características requeridas durante el desarrollo de este cuarto proyecto programado en 
@@ -16,7 +30,7 @@ El *segundo* documento, se trata de la herramienta para el desarrollo dirigido p
 JavaScript, mientras que el segundo, se trata de una librería que permite la realización de desarrollo dirigido por pruebas o desarrollo dirigido por 
 comportamiento.
 
-## // Desarrollo de los distintos ejercicios solicitados
+## // Desarrollo de los distintos ejercicios solicitados <a name="id2"></a>
 
 Tras la lectura de los documentos y la visualización de los vídeos, se da paso a la realización de los distintos ejercicios solicitados en el [guión](https://ull-esit-inf-dsi-2122.github.io/prct04-arrays-tuples-enums/)
 de la práctica 4 de la asignatura.
@@ -25,7 +39,7 @@ Para ello, haciendo uso de la estructura básica de proyecto TypeScript, el desa
 directorio `./src` del proyecto. Además, debe de ser creado un directorio `./doc`, conteniendo la documentación de los distintos ejercicios, y, un 
 directorio `./tests`, conteniendo las distintas pruebas del código desarrollado.
 
-### /// Ejercicio 1 - Tablas de multiplicar
+### /// Ejercicio 1 - Tablas de multiplicar <a name="id3"></a>
 
 Para este primer ejercicio, se ha de crear una función denominada como `productTable`, que recibe un número mayor que 1, que permite devolver el 
 número de tablas de multiplicar, y el número de valores que va a contener cada tabla, a partir, del número introducido como parámetro para la función.
@@ -68,7 +82,7 @@ function productTable(numberN: number): number[][] {
 Tras el desarrollo de la función anterior, se puede ver el testeo de dicha función, en la imagen a continuación:
 [imagen]
 
-### /// Ejercicio 2 - Compresión de números en rangos
+### /// Ejercicio 2 - Compresión de números en rangos <a name="id4"></a>
 
 En el segundo ejercicio, se ha de desarrollar la función denominada como `fromArrayToRanges`. Esta, recibe un array de números enteros, y se encarga 
 de devolver una cadena, dónde, el array original ha sido comprimido de manera que aquellos valores que se encontraban próximos entre si, los ha unido, 
@@ -195,7 +209,7 @@ function fromRangesToArray(stringToConvert: string): number[] {
 El testeo y ejecución de ambas funciones, se puede observar en la siguiente imagen:
 [imagen]
 
-### /// Ejercicio 3 - Decodificar resistencias
+### /// Ejercicio 3 - Decodificar resistencias <a name="id5"></a>
 
 En este tercer ejercicio, se realiza la función `decodeResistor`. Esta, permite decodificar el valor de cualquier resistor o resistencia, que tengan 
 un estándar de bandas de colores. Como resultado, a partir del color de las bandas introducidas, se obtiene el valor en Ohmios de las resistencias.
@@ -268,7 +282,7 @@ function decodeResistor(firstColour: string,
 El testeo y ejecución de dicha función se puede observar en la imagen incluida a continuación:
 [imagen]
 
-### Ejercicio 4 - Palabras encadenadas en un array
+### Ejercicio 4 - Palabras encadenadas en un array <a name="id6"></a>
 
 En este cuarto ejercicio, se desarrolla la función `meshArray`. Esta función, permite devolver si un vector de cadenas, tiene la característica de que 
 todas sus cadenas están encadenadas unas con otras, además, devuelve como resultado una cadena de aquellos caracteres que generan que todas las 
@@ -322,7 +336,7 @@ function meshArray(meshWords: string[]): string {
 El testeo de la función y su ejecución, se puede ver en la imagen a continuación:
 [imagen]
 
-### /// Ejercicio 5 - Calcular la media y concatenar cadenas
+### /// Ejercicio 5 - Calcular la media y concatenar cadenas <a name="id7"></a>
 
 Para el quinto ejercicio, se genera la función `meanAndConcatenate`. Esta, permite agrupar los caracteres y los números de cualquier array que ha sido 
 introducido de manera desordenada. Pero, hay que tener en cuenta que, el array resultante, devulve la media de todos los valores numéricos 
@@ -365,7 +379,7 @@ function meanAndConcatenate(arrayToConvert: (number |
 La ejecución y el testeo de la función, se puede observar a continuación:
 [imagen]
 
-### Ejercicio 6 - Mover los ceros al final
+### Ejercicio 6 - Mover los ceros al final <a name="id8"></a>
 
 En este sexto ejercicio, se realiza la función `moveZeros`. Esta función, ordena los ceros que se encuentran dentro de un vector que ha sido  
 introducido, poniendo estos ceros, al final del vector.
@@ -401,7 +415,7 @@ function moveZeros(arrayToConvert: number[]): number[] {
 El testeo y la ejecución de esta, se puede ver en la imagen adjuntada a continuación:
 [imagen]
 
-### Ejercicio 7 - Factoria de multiplicaciones
+### Ejercicio 7 - Factoria de multiplicaciones <a name="id9"></a>
 
 En el séptimo ejercicio, se desarrolla la función `multiplyAll`. Esta, se encarga de tomar un vector de valores, para devolver, otro vector de 
 valores, pero, esta vez, todos los valores multiplicados por un número **N**.
@@ -430,7 +444,7 @@ function multiplyAll(arrayToMultiply: number[]): (a: number) => number[] {
 La ejecución y el testeo de la función, se puede observar:
 [imagen]
 
-### Ejercicio 8 - Puntos bi-dimensionales
+### Ejercicio 8 - Puntos bi-dimensionales <a name="id10"></a>
 
 Para este octavo ejercicio, se tienen una serie de funciones, que ha de ser desarrolladas. A partir, de un nuevo tipo de dato, denominado como 
 `Point`, que, a su vez, posee dos coordenadas, `x` e `y`.
@@ -505,11 +519,22 @@ function euclideanDistance(firstpoint: point, secondPoint: point): number {
 La ejecución y el testeo de todas las funciones anteriores, se pude ver en la siguiente imagen:
 [imagen]
 
-### /// Ejercicio 9 - Puntos n-dimensionales
+### /// Ejercicio 9 - Puntos n-dimensionales <a name="id11"></a>
 
 Este noveno ejercicio, desarrolla, exactamente las mismas funciones que el ejercicio anterior (ejercicio 8). Pero, en este caso, los puntos 
 introducidos para las funciones, tienen la característica que no son de tipo x o y, sino que, tienen la característica de que pueden ser de tipo x, y ,
 z y más.
+
+Con todo esto anterior especificado, hay que tener en cuenta que la nueva declaración del tipo de dato `Point`, tiene que ser de la manera:
+
+```
+type npoint = {
+    x: number;
+    y: number;
+    z: number;
+    oderCoodinates?: number[];
+  }
+```
 
 La primera función se denomina como `nPointsAdd`. Esta función, suma los valores de las **n** coordenadas que se encuentren dentro de los dos puntos 
 introducidos.
@@ -555,4 +580,152 @@ function nPointsAdd(firstpoint: npoint, secondPoint: npoint): npoint {
 }
 ```
 
+La segunda, se denomina como `nPointsSubtract`. Esta, se encarga de restar todos los valores de las coordenadas de dos puntos que han sido 
+introducidos.
 
+```
+function nPointsSubtract(firstpoint: npoint, secondPoint: npoint): npoint {
+  if (firstpoint.oderCoodinates?.length === secondPoint.oderCoodinates?.length) {
+    const resultPoint: npoint = {
+      x: 0,
+      y: 0,
+      z: 0,
+      oderCoodinates: [],
+    };
+    let i: number = firstpoint.oderCoodinates?.length as number;
+    while (i !== 0) {
+      let auxiliaryNumber: number = 0;
+      let result: number = 0;
+      auxiliaryNumber = firstpoint.oderCoodinates?.pop() as number;
+      result = result - auxiliaryNumber;
+      auxiliaryNumber = secondPoint.oderCoodinates?.pop() as number;
+      result = result - auxiliaryNumber;
+      resultPoint.oderCoodinates?.push(result);
+      i--;
+    }
+    resultPoint.x = firstpoint.x - secondPoint.x;
+    resultPoint.y = firstpoint.y - secondPoint.y;
+    resultPoint.z = firstpoint.z - secondPoint.z;
+    resultPoint.oderCoodinates?.reverse();
+    return resultPoint;
+  } else {
+    const resultPoint: npoint = {
+      x: 0,
+      y: 0,
+      z: 0,
+    };
+    resultPoint.x = firstpoint.x - secondPoint.x;
+    resultPoint.y = firstpoint.y - secondPoint.y;
+    resultPoint.z = firstpoint.z - secondPoint.z;
+    return resultPoint;
+  }
+}
+```
+
+La tercera es `nProductOperation`. Esta función, multiplica todas las coordenadas de un punto introducido, por, un valor **n**.
+
+Como se puede observar:
+
+```
+function nProductOperation(pointToComprobe: npoint, numberToOperate: number): npoint {
+  if (pointToComprobe.oderCoodinates?.length !== 0) {
+    const resultPoint: npoint = {
+      x: 0,
+      y: 0,
+      z: 0,
+      oderCoodinates: [],
+    };
+    let i: number = pointToComprobe.oderCoodinates?.length as number;
+    while (i !== 0) {
+      let auxiliaryNumber: number = 0;
+      let result: number = 0;
+      auxiliaryNumber = pointToComprobe.oderCoodinates?.pop() as number;
+      result = auxiliaryNumber;
+      result = result * numberToOperate;
+      resultPoint.oderCoodinates?.push(result);
+      i--;
+    }
+    resultPoint.x = pointToComprobe.x * numberToOperate;
+    resultPoint.y = pointToComprobe.y * numberToOperate;
+    resultPoint.z = pointToComprobe.z * numberToOperate;
+    resultPoint.oderCoodinates?.reverse();
+    return resultPoint;
+  } else {
+    const resultPoint: npoint = {
+      x: 0,
+      y: 0,
+      z: 0,
+    };
+    resultPoint.x = pointToComprobe.x * numberToOperate;
+    resultPoint.y = pointToComprobe.y * numberToOperate;
+    resultPoint.z = pointToComprobe.z * numberToOperate;
+    return resultPoint;
+  }
+}
+```
+
+Para finalizar, se desarrolla la función `nEuclideanDistance`. Esta, se encarga de calcular la distancia [Euclídea](https://es.wikipedia.org/wiki/Distancia_euclidiana)
+, a partir, de los dos puntos que han sido introducidos.
+
+La ejecución y el testeo de las funciones especificadas anteriormente, se puede observar:
+[imagen]
+
+### /// Ejercicio 10 - El Cartesiano <a name="id12"></a>
+
+Finalmente, en el décimo ejercicio, se realiza la función `theCartesianWalk`. Esta función, se encarga de retornar si el camino que recomienda una 
+aplicación desarrollada para los habitantes de Cartesia, permite retornar al punto de origen, y, además, realizar el paseo en un tiempo menor o 
+equivalente a diez minutos.
+
+En esta función, se tienen dos variables importantes para el desarrollo de esta. La primera es `xCoordinate`, y la otra es `yCoordinate`. Ambas 
+variables, permiten comprobar si, a partir de un vector de coordenadas recibido como parámetro, se puede volver al punto de partida, y además, 
+realizarlo en un tiempo menor o igual a diez minutos. Para ello, hay que tener en cuanta que se parte de las coordenadas (0,0), y que, dependiendo de 
+la dirección en la que se dirija, esas coordenadas cambiaran, es por ello, que la coordenada resultante a la que tiene que equivaler el paseo, es a la 
+inicial, es decir, siempre a (0,0). Si, no se produce esto, el camino recomendado por la aplicación, no es válido.
+
+Todo esto especificado anteriormente, queda plasmado en la función desarrollada a continuación:
+
+```
+function theCartesianWalk(walkToComprobe: string[]): boolean {
+  let counter: number = 0; // to comprobe if the walk is up to 10 minutes
+  let xCoordinate: number = 0;
+  let yCoordinate: number = 0;
+  let i: number = 0;
+  while (i !== walkToComprobe.length) {
+    switch (walkToComprobe[i]) {
+      case `n`:
+        yCoordinate = yCoordinate + 1;
+        counter++;
+        break;
+      case `s`:
+        yCoordinate = yCoordinate - 1;
+        counter++;
+        break;
+      case `e`:
+        xCoordinate = xCoordinate + 1;
+        counter++;
+        break;
+      case `o`:
+        xCoordinate = xCoordinate - 1;
+        counter++;
+        break;
+    }
+    i++;
+  }
+  if ((xCoordinate === 0 && (yCoordinate === 0))) {
+    if (counter <= 10) {
+      return true;
+    } else {
+      return false;
+    }
+  } else {
+    return false;
+  }
+}
+```
+
+La ejecución y el testeo de esto anterior, queda representado en la siguiente imagen:
+[imagen]
+
+En `conclusión`, tras la realización de estos diez ejercicios, he conseguido aprender un poco más sobre el uso de los arrays, de las tuplas, de los enumerados, de los tipos de datos creados por el programador, del retorno de funciones a partir de una función, etc. Todo esto, me ha permitido aprender un poco más sobre todas las funcionalidades que presenta el lenguaje de programación `TypeScript`.
+
+Además, me ha permitido conocer lo que son las pruebas o testeos (BDD) o (TDD), ya que ni en otros lenguajes de programación, ni en otras asignaturas he hecho uso de este tipo de pruebas, lo que, me parece bastante interesante de cara al desarrollo de grandes proyectos en este tipo de lenguaje.
