@@ -84,6 +84,6 @@ enum resistorColours { // It is declared here to make a easy introducing to the 
     Blanco = `Blanco`
   }
 // eslint-disable-next-line max-len
-const resultResistor: number = decodeResistor(resistorColours.Negro, resistorColours.Azul, resistorColours.Violeta);
+const resultResistor: number = decodeResistor(resistorColours.Blanco, resistorColours.Naranja, resistorColours.Violeta, resistorColours.Gris);
 // eslint-disable-next-line max-len
 console.log(`El valor de la resistencia que ha sido introducida es ${resultResistor} Ohmios.`);

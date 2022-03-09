@@ -31,6 +31,6 @@ export function moveZeros(arrayToConvert: number[]): number[] {
   return result;
 }
 
-const arrayMoveZeros: number[] = [0, 14, 3, 0, 0, 1, 3];
+const arrayMoveZeros: number[] = [0, 14, 3, 100, 0, 1, 3];
 const resultMoveZeros: number[] = moveZeros(arrayMoveZeros);
 console.log(`Finalmente el vector convertido es: ${resultMoveZeros}`);

@@ -27,7 +27,7 @@ export function multiplyAll(arrayToMultiply: number[]): (a: number) => number[] 
   };
 }
 
-const arrayExample: number[] = [2, 6, 8, 3, 7];
+const arrayExample: number[] = [2, 2, 8, 5, 1];
 // eslint-disable-next-line max-len
-const resultMultiplyAll = multiplyAll(arrayExample)(10); // To asign a value to the fuction, is neccesary to call the function like this
+const resultMultiplyAll = multiplyAll(arrayExample)(5); // To asign a value to the fuction, is neccesary to call the function like this
 console.log(`El array obtenido tras la multiplicación es ${resultMultiplyAll}`);

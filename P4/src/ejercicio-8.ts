@@ -76,12 +76,12 @@ export function euclideanDistance(firstpoint: point, secondPoint: point): number
 }
 
 const firstPointToIntroduce: point = {
-  x: 0,
-  y: 0,
+  x: 5,
+  y: 6,
 };
 const secondPointToIntroduce: point = {
-  x: 1,
-  y: 1,
+  x: 3,
+  y: 2,
 };
 // eslint-disable-next-line max-len
 let resultPointsOperations: point = pointsAdd(firstPointToIntroduce, secondPointToIntroduce);

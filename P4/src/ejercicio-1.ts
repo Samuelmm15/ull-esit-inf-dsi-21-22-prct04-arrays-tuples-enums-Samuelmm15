@@ -39,7 +39,7 @@ export function productTable(numberN: number): number[][] {
   return result;
 }
 
-const numberNToComprobe = 1;
+const numberNToComprobe = 5;
 if (numberNToComprobe < 1) {
   console.log(`El número que ha sido introducido no está permitido.`);
 } else { // When the number is correct
