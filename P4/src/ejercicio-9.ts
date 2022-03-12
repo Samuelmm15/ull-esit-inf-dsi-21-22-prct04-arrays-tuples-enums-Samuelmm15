@@ -187,13 +187,13 @@ export function nEuclideanDistance(firstpoint: npoint, secondPoint: npoint): num
   }
 }
 
-const firstNpointToIntroduce: npoint = {
+export const firstNpointToIntroduce: npoint = {
   x: 1,
   y: 2,
   z: 3,
   oderCoodinates: [2, 4],
 };
-const secondNpointToIntroduce: npoint = {
+export const secondNpointToIntroduce: npoint = {
   x: 7,
   y: 4,
   z: 2,

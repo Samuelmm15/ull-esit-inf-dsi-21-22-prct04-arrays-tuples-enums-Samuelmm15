@@ -1,4 +1,4 @@
-type point = {
+export type point = {
   x: number;
   y: number;
 }
@@ -75,11 +75,11 @@ export function euclideanDistance(firstpoint: point, secondPoint: point): number
   return result;
 }
 
-const firstPointToIntroduce: point = {
+export const firstPointToIntroduce: point = {
   x: 5,
   y: 6,
 };
-const secondPointToIntroduce: point = {
+export const secondPointToIntroduce: point = {
   x: 3,
   y: 2,
 };
