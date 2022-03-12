@@ -16,19 +16,25 @@ describe('nPointsAdd function tests', () => {
 });
 
 describe('nPointsSubtract function tests', () => {
-  it('nPointsSubtract() returns value ', () => {
-    // expect(nPointsSubtract()).to.be.eq();
+  // eslint-disable-next-line max-len
+  it('nPointsSubtract(firstNpointToIntroduce, secondNpointToIntroduce) returns value {x: -6, y: -2, z: 1, oderCoodinates: []}', () => {
+    // eslint-disable-next-line max-len
+    expect(nPointsSubtract(firstNpointToIntroduce, secondNpointToIntroduce)).to.be.eqls({x: -6, y: -2, z: 1, oderCoodinates: []});
   });
 });
 
 describe('nProductOperation function tests', () => {
-  it('nProductOperation() returns value ', () => {
-    // expect(nProductOperation()).to.be.eq();
+  // eslint-disable-next-line max-len
+  it('nProductOperation(secondNpointToIntroduce, 3) returns value {x: 21, y: 12, z: 6, oderCoodinates: []}', () => {
+    // eslint-disable-next-line max-len
+    expect(nProductOperation(secondNpointToIntroduce, 3)).to.be.eqls({x: 21, y: 12, z: 6});
   });
 });
 
 describe('nEuclideanDistance function tests', () => {
-  it('nEuclideanDistance() returns value ', () => {
-    // expect(nEuclideanDistance()).to.be.eq();
+  // eslint-disable-next-line max-len
+  it('nEuclideanDistance(firstNpointToIntroduce, secondNpointToIntroduce) returns value 6.4031242374328485', () => {
+    // eslint-disable-next-line max-len
+    expect(nEuclideanDistance(firstNpointToIntroduce, secondNpointToIntroduce)).to.be.equal(6.4031242374328485);
   });
 });
