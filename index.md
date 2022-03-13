@@ -17,7 +17,7 @@
 ## // Introdución <a name="id1"></a>
 
 Para la realización de la cuarta práctica de la asignatura `Desarrollo de Sistemas Informáticos`, ha sido necesaria la lectura de documentos y la 
-visualización de vídeos, necesarios para el uso de ciertas características requeridas durante el desarrollo de este cuarto proyecto programado en 
+visualización de vídeos, necesarios, para el uso de ciertas características requeridas durante el desarrollo de este cuarto proyecto programado en 
 `TypeScript`.
 
 El *primer* documento, se trata de la herramienta para documentación de desarrollos, denominada como `TypeDoc`. El uso de esta herramienta en 
@@ -42,9 +42,9 @@ directorio `./tests`, conteniendo las distintas pruebas del código desarrollado
 ### /// Ejercicio 1 - Tablas de multiplicar <a name="id3"></a>
 
 Para este primer ejercicio, se ha de crear una función denominada como `productTable`, que recibe un número mayor que 1, que permite devolver el 
-número de tablas de multiplicar, y el número de valores que va a contener cada tabla, a partir, del número introducido como parámetro para la función.
+número de tablas de multiplicar, y el número de valores que va a contener cada tabla. A partir, del número introducido como parámetro para la función.
 
-Esto anterior, se puede conseguir a partir de dos variables `i` y `j`, que permiten que, a partir de dos bucles seguidos se pueda incrementar el valor 
+Esto anterior, se puede conseguir gracias al empleo de dos variables `i` y `j`, que permiten que, a partir de dos bucles seguidos, se pueda incrementar el valor 
 de i para que vaya reproduciendo cada tabla de multiplicar, es decir, la tabla del 1, del 2, del 3, etc. Mientras que, la variable j, en el otro 
 bucle, se encarga de reproducir cada tabla de multiplicar. Por ejemplo, para la **tabla del 1**: `1 * 1, 1 * 2, 1 * 3` , etc. Todo esto anterior, gracias al valor de j. Por último, hay que tener en cuenta, que ambos valores, se limitan al valor **N** que ha sido introducido.
 
@@ -88,10 +88,10 @@ Tras el desarrollo de la función anterior, se puede ver el testeo de dicha func
 
 En el segundo ejercicio, se ha de desarrollar la función denominada como `fromArrayToRanges`. Esta, recibe un array de números enteros, y se encarga 
 de devolver una cadena, dónde, el array original ha sido comprimido de manera que aquellos valores que se encontraban próximos entre si, los ha unido, 
-de manera, que ha formado un rango de valores.
+formando un rango de valores.
 
 En esta función, se hace uso de dos variables principales, que, para este caso, se denominan como `firstNumber` y `lastNumber`. Estas variables, se 
-encargan de comprobar si, una serie de valores del vector, se encuentras de manera consecutiva, para ello, cuando el último número se encuentra con 
+encargan de comprobar si, una serie de valores del vector, se encuentran de manera consecutiva, para ello, cuando el último número se encuentra con 
 que, al cambiar de valor, este nuevo valor no tiene nada que ver con el conjunto de valores anterior, esta función genera un rango entre el primer 
 número comprobado y el anterior al último a comprobar.
 
@@ -460,7 +460,7 @@ La ejecución y el testeo de la función, se puede observar:
 
 ### Ejercicio 8 - Puntos bi-dimensionales <a name="id10"></a>
 
-Para este octavo ejercicio, se tienen una serie de funciones, que ha de ser desarrolladas. A partir, de un nuevo tipo de dato, denominado como 
+Para este octavo ejercicio, se tienen una serie de funciones, que ha den ser desarrolladas. A partir, de un nuevo tipo de dato, denominado como 
 `Point`, que, a su vez, posee dos coordenadas, `x` e `y`.
 
 La primera de las funciones a realizar es `pointsAdd`. Esta función, se encarga de sumar las coordenadas de dos puntos que han sido introducidos como 
@@ -695,7 +695,7 @@ equivalente a diez minutos.
 En esta función, se tienen dos variables importantes para el desarrollo de esta. La primera es `xCoordinate`, y la otra es `yCoordinate`. Ambas 
 variables, permiten comprobar si, a partir de un vector de coordenadas recibido como parámetro, se puede volver al punto de partida, y además, 
 realizarlo en un tiempo menor o igual a diez minutos. Para ello, hay que tener en cuanta que se parte de las coordenadas (0,0), y que, dependiendo de 
-la dirección en la que se dirija, esas coordenadas cambiaran, es por ello, que la coordenada resultante a la que tiene que equivaler el paseo, es a la 
+la dirección en la que se dirija, esas coordenadas cambiaran. Es por ello, que la coordenada resultante a la que tiene que equivaler el paseo, es a la 
 inicial, es decir, siempre a (0,0). Si, no se produce esto, el camino recomendado por la aplicación, no es válido.
 
 Todo esto especificado anteriormente, queda plasmado en la función desarrollada a continuación:
