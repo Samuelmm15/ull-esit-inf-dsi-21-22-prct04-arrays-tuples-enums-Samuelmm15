@@ -533,6 +533,7 @@ function euclideanDistance(firstpoint: point, secondPoint: point): number {
 La ejecución y el testeo de todas las funciones anteriores, se pude ver en la siguiente imagen:
 ![ejercicio-8-start](https://user-images.githubusercontent.com/72341631/157555023-0d895914-d55b-4e16-8d78-f2a10e304d56.png)
 
+![ejercicio-8-test](https://user-images.githubusercontent.com/72341631/158070090-83293808-2944-4652-86b1-bd6065afb624.png)
 
 ### /// Ejercicio 9 - Puntos n-dimensionales <a name="id11"></a>
 
@@ -685,6 +686,7 @@ Para finalizar, se desarrolla la función `nEuclideanDistance`. Esta, se encarga
 La ejecución y el testeo de las funciones especificadas anteriormente, se puede observar:
 ![ejercicio-9-start](https://user-images.githubusercontent.com/72341631/157555045-53ae037f-1db7-47fc-aa15-bfe347c24c42.png)
 
+![ejercicio-9-test](https://user-images.githubusercontent.com/72341631/158070110-beb17d12-3b23-4dae-9df3-19dcf735e6c9.png)
 
 ### /// Ejercicio 10 - El Cartesiano <a name="id12"></a>
 
