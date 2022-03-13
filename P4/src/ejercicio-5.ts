@@ -20,7 +20,7 @@ export function meanAndConcatenate(arrayToConvert: (number |
       decimalResult = decimalResult + auxiliaryNumber;
       counter++;
     // eslint-disable-next-line quotes
-    } else if (typeof arrayToConvert[i] == "string") {
+    } else if (typeof arrayToConvert[i] === "string") {
       auxiliaryString = arrayToConvert[i] as string;
       stringResult = stringResult + auxiliaryString;
     }
